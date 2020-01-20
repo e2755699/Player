@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Player
 {
-    class Send
+    class PlaceBet
     {
         static void Main(string[] args)
         {
@@ -21,9 +21,6 @@ namespace Player
                     Console.WriteLine(" [x] Sent {0}", message);
                 }
             }
-
-            Console.WriteLine(" Press [enter] to exit.");
-            Console.ReadLine();
         }
     }
 }
